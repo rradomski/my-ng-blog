@@ -8,7 +8,7 @@ export const ARTICLES: Article[] = [
     description: 'This is my first mocked article. Don\'t read it. It\'s just mock. :P',
     key: 'my-first-mock-article',
     date: new Date(),
-    imageUrl: 'https://angular.io/assets/images/logos/angular/angualr.png'
+    imageUrl: 'https://cdn-images-1.medium.com/max/184/1*nbJ41jD1-r2Oe6FsLjKaOg@2x.png'
   },
   {
     id: 2,
@@ -17,6 +17,6 @@ export const ARTICLES: Article[] = [
     description: 'Another mocked article. Read it. It\'s just mock. :P',
     key: 'second-mock-article',
     date: new Date(),
-    imageUrl: 'https://angular.io/assets/images/logos/angular/angualr-solidBlack.png'
+    imageUrl: 'https://cdn-images-1.medium.com/max/184/1*nbJ41jD1-r2Oe6FsLjKaOg@2x.png'
   }
 ];
