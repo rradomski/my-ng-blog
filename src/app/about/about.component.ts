@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+import {Title} from '@angular/platform-browser';
+import {SharedService} from '../shared.service';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  private title = 'About';
+
+  constructor(
+    private titleService: Title,
+    private sharedService: SharedService
+  ) { }
 
   ngOnInit() {
+    this.titleService.setTitle(`${this.title} - ${this.sharedService.mainPageTitle}`);
   }
 
 }
