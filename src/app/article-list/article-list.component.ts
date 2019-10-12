@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {Article} from '../Article';
-import {ARTICLES} from '../mock-articles';
 import {ArticleService} from '../../article.service';
 import {Router} from '@angular/router';
 import {Title} from '@angular/platform-browser';
