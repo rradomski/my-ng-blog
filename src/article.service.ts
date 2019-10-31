@@ -16,7 +16,7 @@ export class ArticleService {
     return this.http.get<Article[]>('http://localhost:8000/articles');
   }
 
-  getArticle(key: string): Observable<Article> {
+  getArticleByKey(key: string): Observable<Article> {
     return this.http.get<Article>(`http://localhost:8000/articles/${key}`);
   }
 }

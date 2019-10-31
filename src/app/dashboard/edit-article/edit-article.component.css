@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 15px 10px;
+  font-size: 21px;
+  line-height: 1.5em;
+}
+
+.property {
+  margin-top: 10px;
+}
+
+textarea {
+  margin: 0;
+  width: 100%;
+  height: 500px;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5em;
+  resize: vertical;
+}
+
+.description {
+  height: 100px;
+}
+
+.saved {
+  color: forestgreen;
+}
+
+.preview {
+  margin-right: 10px;
+}
+
+.delete {
+  margin-right: 10px;
+  color: darkred;
+}
+
+.character-count {
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: -8px;
+}
